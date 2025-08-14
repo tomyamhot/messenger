@@ -1,7 +1,7 @@
 # Мини-мессенджер на FastAPI
 
-Это мой небольшой учебный проект — чат с авторизацией и WebSocket.  
-Хотел попробовать FastAPI, асинхронность и работу с базой PostgreSQL в Docker.
+Это мой небольшой  проект — чат с авторизацией и WebSocket.  
+пробуем фаст апишку, асинхронность и работу с базой постгре в Docker.
 
 ---
 
@@ -14,25 +14,25 @@
 
 ---
 
-## Как запустить
+## Запуск
 
-1. Скачайте репозиторий и перейдите в папку проекта:
+1. Скачать репозиторий и перейти в папку проекта:
 ```bash
-git clone https://github.com/username/messenger.git
-cd messenger
+git clone https://github.com/tomyamhoot/messenger_project_docker_fixed.git
+cd messenger_project_docker_fixed/messenger
 ```
 
-2. Запустите контейнеры:
+2. Запустить контейнер:
 ```bash
 docker-compose up --build
 ```
 
-3. Приложение будет доступно по адресу:
+3. адрес:
 ```
 http://localhost:8000
 ```
 
-Документация API (Swagger UI) — тут:
+документация API сваггер — тут:
 ```
 http://localhost:8000/docs
 ```
@@ -66,7 +66,7 @@ http://localhost:8000/docs
      ```
      Authorization: Bearer <токен>
      ```
-   - Можно протестировать через Postman или расширение для браузера "WebSocket Client".
+   - тест через постмен
 
 ---
 
@@ -82,7 +82,7 @@ http://localhost:8000/docs
 ---
 
 ## Зачем делал
-Хотел сделать простой пример мессенджера, где можно потренироваться с:
+Хотел сделать простой пример мессенджера, и потренировался
 - Асинхронными запросами
 - WebSocket
 - Авторизацией через JWT
@@ -94,3 +94,4 @@ http://localhost:8000/docs
 ```bash
 pytest
 ```
+
