@@ -2,7 +2,7 @@ FROM python:3.11-slim
 
 WORKDIR /code
 
-# Устанавливаем системные зависимости
+# Устанавливаем 
 RUN apt-get update && apt-get install -y gcc libpq-dev build-essential
 
 # Обновляем pip
