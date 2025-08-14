@@ -18,7 +18,7 @@
 
 1. Скачать репозиторий и перейти в папку проекта:
 ```bash
-git clone https://github.com/tomyamhoot/messenger_project_docker_fixed.git
+git clone https://github.com/tomyamhot/messenger_project_docker_fixed.git
 cd messenger_project_docker_fixed/messenger
 ```
 
